@@ -1,0 +1,286 @@
+[Root]
+Most Recent Package=Banco BMG - Instalador
+
+
+[Package|a|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Escritorio\Banco BMG\BMG001\Install
+
+[Package|a|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|a|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|a|Files Found]
+
+[Package|a|Files Released]
+
+[Package|a|Missing Dependency Information]
+
+[Package|a|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMCT332.OCX=
+
+[Package|a|Files Added]
+
+[Package|a|Files Removed]
+
+[Package|a|Files In Project]
+C:\Escritorio\Banco BMG\BMG001\BMG001.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\THREED32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\GRID32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\nslock15vb5.ocx=Yes
+
+[Package|a|Configure Registry Files]
+Applicable=
+
+[Package|a|Configure Remote Servers]
+Applicable=
+
+[Package|a|Install Locations]
+C:\Escritorio\Banco BMG\BMG001\BMG001.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\THREED32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\GRID32.OCX=$(AppPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\nslock15vb5.ocx=$(WinSysPath)
+
+[Package|a|Configure Shared Files]
+Applicable=
+
+[Package|a|DepFile]
+DepCabFile=BMG001.CAB
+DepCabRun=BMG001.INF
+
+[Package|a|Package]
+PackageFolder=C:\Escritorio\Banco BMG\BMG001\Install
+ProjectFolder=C:\Escritorio\Banco BMG\BMG001
+ServerSideCab=
+File1=C:\Escritorio\Banco BMG\BMG001\Install\BMG001.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Banco BMG - Instalador|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Escritorio\Banco BMG\BMG001\Install
+
+[Package|Banco BMG - Instalador|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Banco BMG - Instalador|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Banco BMG - Instalador|Files Found]
+
+[Package|Banco BMG - Instalador|Files Released]
+
+[Package|Banco BMG - Instalador|Missing Dependency Information]
+
+[Package|Banco BMG - Instalador|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMCT332.OCX=
+
+[Package|Banco BMG - Instalador|Files Added]
+C:\Escritorio\Banco BMG\BMG001\bmg.bmp=
+C:\Escritorio\Banco BMG\BMG001\bmg.jpg=
+C:\Escritorio\Banco BMG\BMG001\rede.ini=
+C:\Escritorio\Banco BMG\BMG001\Viewer.exe=
+C:\Escritorio\Banco BMG\BMG001\vb_nsl15.gif=
+C:\Escritorio\Banco BMG\DBPES.LDB=
+C:\Escritorio\Banco BMG\DBPES.MDB=
+C:\Escritorio\Banco BMG\DBSYS.LDB=
+C:\Escritorio\Banco BMG\DBSYS.MDB=
+
+[Package|Banco BMG - Instalador|Files Removed]
+c:\escritorio\banco bmg\bmg001\vb_nsl15.gif=
+
+[Package|Banco BMG - Instalador|Files In Project]
+C:\Escritorio\Banco BMG\BMG001\BMG001.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\THREED32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\GRID32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\PICCLP32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\nslock15vb5.ocx=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Escritorio\Banco BMG\BMG001\bmg.bmp=Yes
+C:\Escritorio\Banco BMG\BMG001\bmg.jpg=Yes
+C:\Escritorio\Banco BMG\BMG001\rede.ini=Yes
+C:\Escritorio\Banco BMG\BMG001\Viewer.exe=Yes
+C:\Escritorio\Banco BMG\BMG001\vb_nsl15.gif=No
+C:\Escritorio\Banco BMG\DBPES.LDB=Yes
+C:\Escritorio\Banco BMG\DBPES.MDB=Yes
+C:\Escritorio\Banco BMG\DBSYS.LDB=Yes
+C:\Escritorio\Banco BMG\DBSYS.MDB=Yes
+
+[Package|Banco BMG - Instalador|Configure Registry Files]
+Applicable=No
+
+[Package|Banco BMG - Instalador|Configure Remote Servers]
+Applicable=No
+
+[Package|Banco BMG - Instalador|Install Locations]
+C:\Escritorio\Banco BMG\BMG001\BMG001.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\THREED32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Arquivos de programas\Arquivos comuns\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\GRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\nslock15vb5.ocx=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Escritorio\Banco BMG\BMG001\bmg.bmp=$(AppPath)
+C:\Escritorio\Banco BMG\BMG001\bmg.jpg=$(AppPath)
+C:\Escritorio\Banco BMG\BMG001\rede.ini=$(AppPath)
+C:\Escritorio\Banco BMG\BMG001\Viewer.exe=$(AppPath)
+C:\Escritorio\Banco BMG\DBPES.LDB=$(AppPath)
+C:\Escritorio\Banco BMG\DBPES.MDB=$(AppPath)
+C:\Escritorio\Banco BMG\DBSYS.LDB=$(AppPath)
+C:\Escritorio\Banco BMG\DBSYS.MDB=$(AppPath)
+
+[Package|Banco BMG - Instalador|Configure Shared Files]
+Applicable=Yes
+C:\Escritorio\Banco BMG\BMG001\BMG001.exe=Yes
+C:\Escritorio\Banco BMG\BMG001\bmg.bmp=Yes
+C:\Escritorio\Banco BMG\BMG001\bmg.jpg=Yes
+C:\Escritorio\Banco BMG\BMG001\rede.ini=Yes
+C:\Escritorio\Banco BMG\BMG001\Viewer.exe=Yes
+C:\Escritorio\Banco BMG\DBPES.LDB=Yes
+C:\Escritorio\Banco BMG\DBPES.MDB=Yes
+C:\Escritorio\Banco BMG\DBSYS.LDB=Yes
+C:\Escritorio\Banco BMG\DBSYS.MDB=Yes
+
+[Package|Banco BMG - Instalador|Distribution]
+Type=single
+Size=
+Title=Banco BMG - Gestão e Controle de Clientes
+
+[Package|Banco BMG - Instalador|IconGroups]
+Group0=Banco BMG - Gestão e Controle de Clientes
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Banco BMG - Instalador|Banco BMG - Gestão e Controle de Clientes]
+Icon1=BMG001.exe
+Title1=Banco BMG - Gestão e Controle de Clientes
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Banco BMG - Instalador|Package]
+PackageFolder=C:\Escritorio\Banco BMG\BMG001\Install
+ProjectFolder=C:\Escritorio\Banco BMG\BMG001
+ServerSideCab=
+File1=C:\Escritorio\Banco BMG\BMG001\Install\setup.exe
+File2=C:\Escritorio\Banco BMG\BMG001\Install\Setup.Lst
+File3=C:\Escritorio\Banco BMG\BMG001\Install\BMG001.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
